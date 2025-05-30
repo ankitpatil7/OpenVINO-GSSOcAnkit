@@ -1,6 +1,8 @@
 # OpenVINO-YoloV3
 YoloV3 / tiny-YoloV3 + RaspberryPi3 / Ubuntu LaptopPC + NCS/NCS2 + USB Camera + Python
- Inspired from **https://github.com/mystic123/tensorflow-yolo-v3.git**
+
+1. [[24 FPS] Boost RaspberryPi3 with four Neural Compute Stick 2 (NCS2) MobileNet-SSD / YoloV3 [48 FPS for Core i7]](https://qiita.com/PINTO/items/94d5557fca9911cc892d#24-fps-boost-raspberrypi3-with-four-neural-compute-stick-2-ncs2-mobilenet-ssd--yolov3-48-fps-for-core-i7)
+1. [[24 FPS] Boost RaspberryPi3 with four Neural Compute Stick 2 (NCS2) MobileNet-SSD / YoloV3 [48 FPS for Core i7]](https://qiita.com/PINTO/items/94d5557fca9911cc892d#24-fps-boost-raspberrypi3-with-four-neural-compute-stick-2-ncs2-mobilenet-ssd--yolov3-48-fps-for-core-i7) Inspired from **https://github.com/mystic123/tensorflow-yolo-v3.git**
   
 **Performance comparison as a mobile application (Based on sensory comparison)**  
 ◯=HIGH, △=MEDIUM, ×=LOW  
@@ -26,7 +28,19 @@ sc
 [Apr 03, 2019]　Work on OpenVINO 2019 R1 started.  
 [Apr 14, 2019]　Compatible with 2019 R1.   
 Inspired from **https://github.com/mystic123/tensorflow-yolo-v3.git**
+  $ python3 openvino_yolov3_MultiStick_test.py -numncs 4
+```Inspired from **https://github.com/mystic123/tensorflow-yolo-v3.git**
   
+**Performance comparison as a mobile application (Based on sensory comparison)**  
+◯=HIGH, △=MEDIUM, ×=LOW  
+sc
+|No.|Model|Speed|Accura$ python3 openvino_yolov3_MultiStick_test.py -numncs 4
+```Inspired from **https://github.com/mystic123/tensorflow-yolo-v3.git**
+  
+**Performance comparison as a mobile application (Based on sensory comparison)**  
+◯=HIGH, △=MEDIUM, ×=LOW  
+sc
+|No.|Model|Speed|Accura
 **Performance comparison as a mobile application (Based on sensory comparison)**  
 ◯=HIGH, △=MEDIUM, ×=LOW  
 sc
